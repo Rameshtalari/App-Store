@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  list-style-type: none;
+  border: none;
+  border-radius: 12px;
+  width: 20%;
+  max-width: 108px;
+  padding-top: 16px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .image-card {
+    max-width: 168%;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
+.card-img {
+  height: 60px;
+  width: 60px;
+}
+@media screen and (min-width: 768px) {
+  .card-img {
+    height: 90px;
+    width: 90px;
+  }
+}
+
+.app-name {
+  font-size: 16px;
+  font-family: 'Bree Serif';
+  font-weight: 500;
+  color: #1e293b;
+}
+
+@media screen and (min-width: 768px) {
+  .app-name {
+    font-size: 24px;
+    font-family: 'Bree Serif';
+  }
+}
